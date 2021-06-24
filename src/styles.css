@@ -5,6 +5,7 @@
 }
 body{
     text-align: center;
+    background-color: rgb(252 215 252);
 }
 
 #heading{
@@ -19,7 +20,6 @@ h1{
 #sub-heading{
     display: block;
     width: 70%;
-    /* font-size: .9rem; */
     margin: auto auto 2rem;
     font-style: italic;
     line-height: 1.5rem;
@@ -47,11 +47,32 @@ h1{
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     font-style: italic;
     font-weight: 600;
+    background-color: white;
 }
 
 #list{
     max-width: 75vw;
     margin: 5rem;
+    margin-top: 2rem;
+}
+h3{
+    margin-top: 5rem;
+}
+#bg{
+    margin-left: 70px;
+}
+@media (max-width:500px){
+    #list{
+        border: 1px solid var(--black-color);
+    width: 40vh;
+    height: 48vh;
+    overflow: scroll;
+    background-color: white;
+
+    }
+    #bg{
+        margin-left: -21px;
+    }
 }
 
 #item{
@@ -60,9 +81,7 @@ h1{
     cursor: pointer;
     
 }
-#bg{
-    background-color: rgb(252 215 252);
-}
+
 
 #footer{
     display: flex;

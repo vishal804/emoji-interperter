@@ -35,12 +35,10 @@ export const emojiDictionary = {
 "😐": "Neutral Face",
 "😑": "Expressionless Face",
  "😶": "Face Without Mouth",
- 
  "😏": "Smirking Face",
  "😒": "Unamused Face",
  "🙄": "Face with Rolling Eyes",
  "😬": "Grimacing Face",
- 
  "🤥" :"Lying Face",
  "😌": "Relieved Face",
  "😔" :"Pensive Face",
@@ -99,5 +97,5 @@ export const emojiDictionary = {
 // "☺️": "Smiling Face",
 // "🥲": "Smiling Face with Tear",
 // 🥸 Disguised Face
-  };
+};
 
