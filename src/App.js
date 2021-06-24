@@ -42,7 +42,8 @@ export default function App() {
     </div>
     </section>
     <footer id="footer">
-      <h3>made by Vishal</h3>
+      <h5>made by Vishal
+      <br></br>© All rights reserved 2021</h5>
     </footer>
   </div>
   );

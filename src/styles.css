@@ -6,10 +6,15 @@
 body{
     text-align: center;
 }
+
 #heading{
     text-align: center;
     background-color: rgb(255 144 201);
     min-height: 19vh;
+}
+h1{
+    color: #19181a;
+    font-family: "Bungee Shade",cursive;
 }
 #sub-heading{
     display: block;
@@ -18,6 +23,7 @@ body{
     margin: auto auto 2rem;
     font-style: italic;
     line-height: 1.5rem;
+    padding: 1rem;
 }
 
 #input{
@@ -59,5 +65,8 @@ body{
 }
 
 #footer{
-    background-color: rgb(255 144 201);;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(255 144 201);
 }
