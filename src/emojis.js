@@ -25,24 +25,24 @@ export const emojiDictionary = {
 "🤩": "Star-Struck",
 "😘": "Face Blowing a Kiss",
 "😗": "Kissing Face",
-"☺️": "Smiling Face",
+
 "😚" :"Kissing Face with Closed Eyes",
 "😙": "Kissing Face with Smiling Eyes",
-"🥲": "Smiling Face with Tear",
+
 "😋": "Face Savoring Food",
 "😛": "Face with Tongue",
 "😜": "Winking Face with Tongue",
 "🤪": "Zany Face",
-// 😝 Squinting Face with Tongue
-// 🤑 Money-Mouth Face
-// 🤗 Hugging Face
-// 🤭 Face with Hand Over Mouth
-// 🤫 Shushing Face
-// 🤔 Thinking Face
-// 🤐 Zipper-Mouth Face
-// 🤨 Face with Raised Eyebrow
-// 😐 Neutral Face
-// 😑 Expressionless Face
+ "😝" :"Squinting Face with Tongue",
+ "🤑" :"Money-Mouth Face",
+"🤗" :"Hugging Face",
+ "🤭": "Face with Hand Over Mouth",
+ "🤫": "Shushing Face",
+ "🤔": "Thinking Face",
+ "🤐": "Zipper-Mouth Face",
+ "🤨": "Face with Raised Eyebrow",
+ "😐": "Neutral Face",
+ "😑": "Expressionless Face",
 // 😶 Face Without Mouth
 // 😶‍🌫️ Face in Clouds
 // 😏 Smirking Face
@@ -104,6 +104,7 @@ export const emojiDictionary = {
 // 🤬 Face with Symbols on Mouth
 // 😈 Smiling Face with Horns
 // 👿 Angry Face with Horns
-
+// "☺️": "Smiling Face",
+// "🥲": "Smiling Face with Tear",
   };
 

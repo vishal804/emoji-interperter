@@ -28,20 +28,22 @@ export default function App() {
       </header>
       
     <section id="content">
-    <div id="serachbar">
+    {/* <div id="serachbar"> */}
     <input id="input" placeholder="Type in Your Emoji here" onChange={emojiInput}></input>
+    {/* </div> */}
       <div id="meaning"> {meaning} </div>
-    </div>
-      
-
-      <div id="list">
+    <div id="bg">
+    <div id="list">
+        <h3>Click on the emoji to find out its meaning</h3>
         {emoji.map((item) => {
-          return <span onClick={() => clickHandler(item)}> {item} </span>;
+          return <span id="item" onClick={() => clickHandler(item)}> {item} </span>;
         })}
       </div>
+    </div>
     </section>
-
-      
+    <footer id="footer">
+      <h3>made by Vishal</h3>
+    </footer>
   </div>
   );
 }
